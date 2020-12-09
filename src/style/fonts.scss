@@ -1,0 +1,14 @@
+@include font(Graphik-Regular, Graphik-Regular);
+@include font(Graphik-Semibold, Graphik-Semibold);
+
+@include font(f37, f37);
+
+@mixin font-header() {
+  font-family: 'f37', serif;
+  @include font-size-fluid(320px, 1600px, 30px, 70px);
+}
+
+@mixin font-nav() {
+  font-family: 'f37', serif;
+  @include font-size-fluid(320px, 1600px, 20px, 36px);
+}
